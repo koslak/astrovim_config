@@ -20,13 +20,14 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
-    ["n"] = { "nzzzv", desc = "Allow search results to be in the middle of the screen" },
-    ["N"] = { "Nzzzv", desc = "Allow search results to be in the middle of the screen" },
+    --["n"] = { "nzzzv", desc = "Allow search results to be in the middle of the screen" },
+    --["N"] = { "Nzzzv", desc = "Allow search results to be in the middle of the screen" },
     ["p"] = { "p==", desc = "Paste content with the right indenting" },
     ["<C-d>"] = { "<C-d>zz", desc = "" },
     ["<C-u>"] = { "<C-u>zz", desc = "" },
     ["<S-G>"] = { "<S-G>zz", desc = "" },
     ["<C-O>"] = { "<C-O>zz", desc = "" },
+    ["<C-I>"] = { "<C-I>zz", desc = "" },
     ["<C-I>"] = { "<C-I>zz", desc = "" },
     ["{"] = { "{zz", desc = "" },
     ["}"] = { "}zz", desc = "" },
