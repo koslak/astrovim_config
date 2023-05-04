@@ -26,7 +26,7 @@ You can also just clone this repository directly if you do not want to track you
 #### Clone the repository
 
 ```shell
-cd <path_to_nvim/lua>
+cd ~/.config/nvim/lua
 git clone https://<TOKEN>@github.com/koslak/astrovim_config.git user
 ```
 
