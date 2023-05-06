@@ -1,3 +1,6 @@
+-- In order for you to know to which category a word highlight belongs to,
+-- place the cursor over that word and then type :Inspect this will show you 
+-- the category. For Example, in the code below, the "SpellLocal" is a category.
 return function()
     local get_hlgroup = require("astronvim.utils").get_hlgroup
     local normal = get_hlgroup "Normal"
