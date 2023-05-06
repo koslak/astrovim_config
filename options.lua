@@ -22,6 +22,9 @@ return {
     incsearch = true,
 
     termguicolors = true,
+
+    --nobackup = true,
+    --nowritebackup = true,
     
   },
   g = {
