@@ -11,6 +11,6 @@ return function()
     return { -- this table overrides highlights in all themes
         CursorLine = { bg = "#191928" },
         --LspReferenceText = spelllocalx, 
-        --LspReferenceText = { bg = "#191928" }
+        LspReferenceText = { bg = "#1E1E2E" }
     }
 end
