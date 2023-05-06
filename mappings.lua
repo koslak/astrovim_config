@@ -32,7 +32,7 @@ return {
     ["{"] = { "{zz", desc = "" },
     ["}"] = { "}zz", desc = "" },
 
-    ["<leader>d"] = { "\"_d", desc = "replace word without loosing previous selection" },
+    ["<leader>xd"] = { "\"_d", desc = "replace word without loosing previous selection" },
     ["<leader>s"] = { [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]], desc = "Replacing selected word" },
   },
 

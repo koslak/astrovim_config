@@ -18,16 +18,29 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "everforest",
+  -- colorscheme = "everforest",
+  -- plugins = {
+  --     {
+  --         "sainnhe/everforest",
+  --         init = function() -- init function runs before the plugin is loaded
+  --             vim.g.everforest_background = "hard"
+  --             vim.g.everforest_better_performance = 1
+  --             --vim.g.everforest_colors_override = {'bg0': ['#202020', '234'], 'bg2': ['#282828', '235']}
+  --         end,
+  --     },
+  -- },
+  --
+
+  colorscheme = "catppuccin",
+
   plugins = {
-      {
-          "sainnhe/everforest",
-          init = function() -- init function runs before the plugin is loaded
-              vim.g.everforest_background = "hard"
-              vim.g.everforest_better_performance = 1
-              --vim.g.everforest_colors_override = {'bg0': ['#202020', '234'], 'bg2': ['#282828', '235']}
-          end,
-      },
+    {
+      "catppuccin/nvim",
+      as = "catppuccin",
+      config = function()
+        require("catppuccin").setup {}
+      end,
+    },
   },
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
