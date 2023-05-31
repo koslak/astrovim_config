@@ -50,6 +50,20 @@ return {
   },
 
   lsp = {
+    config = {
+      clangd = {
+        capabilities = { offsetEncoding = "utf-8" }
+      },
+    },
+    ["server-settings"] = {
+      clangd = {
+        -- This table is the input to the require("lspconfig").clangd.setup call
+        capabilities = { -- example setting capabilities like offset encoding
+          offsetEncoding = "utf-8",
+        },
+        cmd = { "clangd --query-driver=/usr/bin/c++" }, -- supply more arguments in this cmd list
+      },
+    },
     -- customize lsp formatting options
     formatting = {
       -- control auto formatting on save

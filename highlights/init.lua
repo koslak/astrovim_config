@@ -12,8 +12,8 @@ return function()
     local spelllocalx = get_hlgroup "SpellLocal"
  
     return { -- this table overrides highlights in all themes
-        CursorLine = { bg = "#191928" },
+        -- CursorLine = { bg = "#191928" },
         --LspReferenceText = spelllocalx, 
-        LspReferenceText = { bg = "#1E1E2E" }
+        -- LspReferenceText = { bg = "#1E1E2E" }
     }
 end
